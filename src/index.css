@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+    --font-rubik: "Rubik", sans-serif;
+
+    --leading-66: 4.125rem;
+    --leading-47: 2.938rem;
+    --leading-38: 2.375rem;
+    --leading-28: 1.75rem;
+    --leading-21: 1.313rem;
+    --leading-18: 1.125rem;
+
+    --text-56: 3.5rem;
+    --text-32: 2rem;
+    --text-15: 0.938rem;
+
+    --color-grey-200: hsl(0, 0%, 85%);
+
+    --color-yellow-300: hsl(43, 84%, 65%);
+
+    --color-green-400: hsl(145, 58%, 55%);
+
+    --color-pink-400: hsl(348, 100%, 68%);
+
+    --color-blue-300: hsl(195, 74%, 62%);
+
+    --color-purple-500: hsl(235, 45%, 61%);
+    --color-purple-600: hsl(246, 80%, 60%);
+    --color-purple-700: hsl(264, 64%, 52%);
+
+    --color-orange-300: hsl(15, 100%, 70%);
+
+    --color-navy-200: hsl(236, 100%, 87%);
+    --color-navy-800: hsl(235, 41%, 34%);
+    --color-navy-900: hsl(235, 46%, 20%);
+    --color-navy-950: hsl(226, 43%, 10%);
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("assets/fonts/Rubik-VariableFont_wght.woff2") format("woff2");
+    font-weight: 300, 400, 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: var(--font-rubik);
+}
